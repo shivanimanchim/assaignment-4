@@ -1,0 +1,62 @@
+In [ ]:
+#add two numbers
+a=int(input('Enter a number'))
+b=int(input('Enter a number'))
+c=a+b
+print(c)
+
+Enter a number10
+Enter a number5
+15
+
+
+In [ ]:
+#input name of user
+a=('Hello')
+b=input('Enter your name')
+print(a,b)
+
+Enter your nameShravs
+Hello Shravs
+
+
+In [ ]:
+#input to prompt hours
+hours=float(input('Enter the hours'))
+rate= float(input('Enter the rate'))
+pay=hours*rate
+print('The amount to be payed is %2f'%pay)
+
+Enter the hours35
+Enter the rate2.75
+The amount to be payed is 96.250000
+
+
+In [ ]:
+#checking expression 
+width=17
+height=12.0
+a=width//2
+b=width//2.0
+c=height/3
+d=1+2*5
+print(a)
+print(b)
+print(c)
+print(d)
+
+8
+8.0
+4.0
+11
+
+
+In [6]:
+#change this value for a different result
+celsius = 40.0
+ 
+# calculate fahrenheit
+fahrenheit = (celsius * 1.8) + 32
+print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))
+
+40.0 degree Celsius is equal to 104.0 degree Fahrenheit
